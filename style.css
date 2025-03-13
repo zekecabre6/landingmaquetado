@@ -212,7 +212,7 @@
   height: 15.625rem;
   height: auto;
   max-width: 14.375rem;
-  border-radius: 0.938rem;
+  border-radius: 0.3rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -221,9 +221,10 @@
   background-color: #3457fa;
   border: none;
   color: white;
-  padding: 0.313rem ;
-  border-radius: 0.625rem;
-  max-width: 8.125rem;
+  padding: 0.5rem ;
+  border-radius: 2rem;
+  width:   10rem;
+  font-size: 1.2rem;
 }
 
 .flex ul {
@@ -244,13 +245,16 @@ footer {
   background-color: #00358e;
   color: white;
   background-image: radial-gradient(
-    circle at 1px 1px,
+    circle at top left,
     rgba(189, 189, 189, 0.2) 1px,
-    transparent 1px
+    transparent 4px
   );
-  background-size: 0.625rem 0.625rem;
+  background-size: 10px 10px; 
+  background-position: 0 ; 
+  backdrop-filter: blur(99px);
   position: relative;
 }
+
 
 .footer {
   display: flex;
@@ -262,7 +266,7 @@ footer {
 .footer div {
   border-right: 1px solid white;
   margin: 3.125rem 0;
-  padding: 1.25rem;
+  padding: 2.25rem;
 }
 
 .footer div li {
@@ -356,7 +360,6 @@ footer {
     border-right: none;
     margin: 0px;
     border-bottom: 1px solid white;
-    padding-left: 0;
     width: 15.625rem;
     align-items: center;
     justify-content: center;
@@ -457,7 +460,7 @@ footer {
     border-right: none;
     margin: 0px;
     border-bottom: 1px solid white;
-    padding-left: 0;
+    
     width: 12.5rem;
     align-items: center;
     justify-content: center;
@@ -475,7 +478,8 @@ footer {
     margin: 0px !important;
   }
 }
-@media (max-width: 500px) {
+
+@media (max-width: 320px) {
   html {
     font-size: 4vw;
  }
