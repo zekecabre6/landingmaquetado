@@ -75,7 +75,7 @@
   justify-content: space-between;
   padding: 0 80px;
   height: 90vh;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   z-index: 10004;
@@ -280,6 +280,7 @@ footer {
     padding: 0 40px;
     height: auto;
     background-position: top;
+    background-size: 100%;
     background-color: white;
   }
   .pc {
