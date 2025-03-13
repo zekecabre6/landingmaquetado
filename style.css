@@ -11,10 +11,10 @@
   flex-direction: column;
   align-items: center;
   background-color: rgb(255, 255, 255);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
   height: fit-content;
-  min-width: 300px;
+  min-width: 18.75rem;
   overflow: auto;
   margin: auto;
 }
@@ -25,15 +25,15 @@
 }
 
 .modal h3 {
-  padding: 10px;
+  padding: 0.625rem ;
 }
 
 .modal p {
-  padding: 10px;
+  padding: 0.625rem ;
 }
 
 .modal button {
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   background-color: #25d366;
   color: white;
   border: none;
@@ -45,27 +45,27 @@
 }
 
 .modal svg {
-  padding: 0 5px;
+  padding: 0 .2rem;
 }
 
 .modal select,
 .modal input {
-  width: 250px;
-  height: 30px;
+  width: 15.625rem;
+  height: 1.875rem;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 0.938rem;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 .modal .next {
   color: white;
   background-color: #3457fa;
-  margin: 80px 0 20px 0;
+  margin: 5rem 0 1.25rem 0;
 }
 
 .modal label {
-  padding: 10px 0 0 0;
+  padding: 1.20rem 0 0 0;
 }
 
 .first {
@@ -73,7 +73,7 @@
   background-image: url("/assets/car-image.png");
   display: flex;
   justify-content: space-between;
-  padding: 0 80px;
+  padding: 0 5rem;
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@
 }
 
 .infotitle {
-  padding: 20px 0;
+  padding: 1.25rem 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -93,13 +93,13 @@
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
   font-size: 3.5rem;
   font-weight: bold;
-  padding: 0 80px 20px 0;
+  padding: 0 5rem 1.25rem 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .title img {
   height: auto;
-  width: 300px;
+  width: 18.75rem;
   filter: invert(1) grayscale(150%) contrast(150%);
 }
 
@@ -122,7 +122,7 @@
 }
 
 .header img {
-  width: 300px;
+  width: 18.75rem;
   height: auto;
 }
 
@@ -130,10 +130,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 25px;
+  padding:0.625rem 1.563rem;
   background-color: #3457fa;
   color: white;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   cursor: pointer;
   border: none;
   font-size: 0.8rem;
@@ -144,11 +144,11 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .second h1 {
-  padding: 0 0 65px 0;
+  padding: 0 0 6.25rem 0;
   color: #00358e;
   font-size: 2.5rem;
 }
@@ -158,18 +158,18 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 200px;
+  gap: 12.5rem;
 }
 
 .opciones div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .opciones div img {
-  width: 100px;
+  width: 6.25rem;
   height: auto;
   border-radius: 100%;
 }
@@ -179,7 +179,7 @@
 }
 
 .second > p {
-  padding: 80px;
+  padding: 5rem;
 }
 
 .third {
@@ -191,14 +191,14 @@
   text-align: center;
   font-size: 2.2rem;
   font-weight: bolder;
-  padding: 60px;
+  padding: 3.75rem;
 }
 
 .seguros {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding-bottom: 80px;
+  gap: 1.25rem;
+  padding-bottom: 5rem;
 }
 
 .flex {
@@ -207,27 +207,27 @@
   justify-content: space-around;
   align-items: stretch;
   background-color: white;
-  padding: 30px;
-  width: 230px;
-  height: 250px;
+  padding: 1.875rem;
+  width: 14.375rem;
+  height: 15.625rem;
   height: auto;
-  max-width: 230px;
-  border-radius: 15px;
+  max-width: 14.375rem;
+  border-radius: 0.938rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .flex button {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   background-color: #3457fa;
   border: none;
   color: white;
-  padding: 5px;
-  border-radius: 10px;
-  max-width: 130px;
+  padding: 0.313rem ;
+  border-radius: 0.625rem;
+  max-width: 8.125rem;
 }
 
 .flex ul {
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 .flex .blue {
@@ -248,7 +248,7 @@ footer {
     rgba(189, 189, 189, 0.2) 1px,
     transparent 1px
   );
-  background-size: 10px 10px;
+  background-size: 0.625rem 0.625rem;
   position: relative;
 }
 
@@ -256,13 +256,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 80px;
+  padding: 0 5rem;
 }
 
 .footer div {
   border-right: 1px solid white;
-  margin: 50px 0;
-  padding: 20px;
+  margin: 3.125rem 0;
+  padding: 1.25rem;
 }
 
 .footer div li {
@@ -270,14 +270,15 @@ footer {
 }
 
 .footer1 {
-  padding: 20px 60px 40px 60px;
+  padding: 1.25rem 3.75rem 2.5rem 3.75rem;
   font-size: 0.8rem;
 }
 
 @media (max-width: 1020px) {
+  
   .first {
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 2.5rem;
     height: auto;
     background-position: top;
     background-size: 100%;
@@ -288,24 +289,24 @@ footer {
   }
   .mobile {
     display: block;
-    max-width: 200px;
+    max-width: 12.5rem;
   }
   .modal {
-    width: 400px;
+    width: 25rem;
     background-color: white;
   }
   .info {
     font-size: 2rem;
-    padding: 70px 0 20px 0;
+    padding: 4.375rem 0 1.25rem 0;
   }
   .modal .next {
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
   .header {
     padding: 15px 40px;
   }
   .header img {
-    width: 200px;
+    width: 12.5rem;
   }
   .header .cotiza {
     font-size: 1rem;
@@ -316,39 +317,39 @@ footer {
     text-align: center;
   }
   .opciones {
-    gap: 30px;
+    gap: 1.875rem;
     justify-content: space-around;
   }
   .opciones div img {
-    width: 90px;
+    width: 5.625rem;
   }
   .opciones div p {
     font-size: 1.2rem;
   }
   .second > p {
-    padding: 60px;
+    padding: 3.75rem;
     text-align: center;
   }
   .found {
     font-size: 1.8rem;
-    padding: 40px;
+    padding: 2.5rem;
   }
   .seguros {
     flex-direction: column;
-    gap: 15px;
+    gap: 0.938rem;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
   }
   .flex {
     max-width: 100%;
-    padding: 25px;
+    padding: 1.563rem;
   }
   .flex button {
     max-width: 100%;
   }
   .footer {
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 2.5rem;
   }
   .footer div {
     display: flex;
@@ -356,7 +357,7 @@ footer {
     margin: 0px;
     border-bottom: 1px solid white;
     padding-left: 0;
-    width: 250px;
+    width: 15.625rem;
     align-items: center;
     justify-content: center;
   }
@@ -367,17 +368,18 @@ footer {
     align-items: center;
   }
   .footer img {
-    max-width: 250px;
+    max-width: 15.625rem;
   }
   .second {
     margin: 0px !important;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
+  
   .first {
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     height: auto;
     background-position: top;
     background-color: white;
@@ -387,68 +389,68 @@ footer {
   }
   .mobile {
     display: block;
-    max-width: 150px;
+    max-width: 9.375rem;
   }
   .modal {
-    width: 300px;
+    margin-top: 1rem;
+    width: 18.75rem;
     background-color: unset;
   }
   .info {
     font-size: 1.5rem;
-    padding: 90px 0 20px 0;
+    padding: 5.625rem 0 1.25rem 0;
     align-self: center;
   }
   .modal .next {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
   .header {
-    padding: 15px 20px;
+    padding: 0.938rem 1.25rem;
   }
   .header img {
-    width: 150px;
+    width: 9.375rem;
   }
   .header .cotiza {
     font-size: 0.9rem;
-    padding: 10px 35px;
+    padding: 0.625rem 2.188rem;
   }
   .second h1 {
     font-size: 1.3rem;
     text-align: center;
   }
   .opciones {
-    gap: 15px;
     justify-content: space-around;
   }
   .opciones div img {
-    width: 80px;
+    width: 5rem;
   }
   .opciones div p {
     font-size: 1.1rem;
   }
   .second > p {
-    padding: 40px;
+    padding: 2.5rem;
     text-align: center;
   }
   .found {
     font-size: 1.5rem;
-    padding: 30px;
+    padding: 1.875rem;
   }
   .seguros {
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
   }
   .flex {
     max-width: 100%;
-    padding: 20px;
+    padding: 1.25rem;
   }
   .flex button {
     max-width: 100%;
   }
   .footer {
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
   .footer div {
     display: flex;
@@ -456,7 +458,7 @@ footer {
     margin: 0px;
     border-bottom: 1px solid white;
     padding-left: 0;
-    width: 200px;
+    width: 12.5rem;
     align-items: center;
     justify-content: center;
   }
@@ -467,9 +469,15 @@ footer {
     align-items: center;
   }
   .footer img {
-    max-width: 200px;
+    max-width: 12.5rem;
   }
   .second {
     margin: 0px !important;
   }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 4vw;
+ }
+ 
 }
