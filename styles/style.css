@@ -48,7 +48,7 @@
     text-align: center;
   }
   .opciones {
-    gap: 1.875rem;
+    gap: 4rem;
     justify-content: space-around;
   }
   .opciones div img {
