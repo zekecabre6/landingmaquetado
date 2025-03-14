@@ -7,6 +7,7 @@
 .mobile {
   display: none;
 }
+
 .modal {
   display: flex;
   flex-direction: column;
@@ -26,11 +27,11 @@
 }
 
 .modal h3 {
-  padding: 0.625rem ;
+  padding: 0.625rem;
 }
 
 .modal p {
-  padding: 0.625rem ;
+  padding: 0.625rem;
 }
 
 .modal button {
@@ -46,7 +47,7 @@
 }
 
 .modal svg {
-  padding: 0 .2rem;
+  padding: 0 0.2rem;
 }
 
 .modal select,
@@ -66,7 +67,7 @@
 }
 
 .modal label {
-  padding: 1.20rem 0 0 0;
+  padding: 1.2rem 0 0 0;
 }
 
 .first {
@@ -131,7 +132,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:0.625rem 1.563rem;
+  padding: 0.625rem 1.563rem;
   background-color: #3457fa;
   color: white;
   border-radius: 1.25rem;
@@ -222,9 +223,9 @@
   background-color: #3457fa;
   border: none;
   color: white;
-  padding: 0.5rem ;
+  padding: 0.5rem;
   border-radius: 2rem;
-  width:   10rem;
+  width: 10rem;
   font-size: 1.2rem;
 }
 
@@ -250,12 +251,11 @@ footer {
     rgba(189, 189, 189, 0.2) 1px,
     transparent 4px
   );
-  background-size: 10px 10px; 
-  background-position: 0 ; 
+  background-size: 10px 10px;
+  background-position: 0;
   backdrop-filter: blur(99px);
   position: relative;
 }
-
 
 .footer {
   display: flex;
@@ -280,7 +280,6 @@ footer {
 }
 
 @media (max-width: 1020px) {
-  
   .first {
     flex-direction: column;
     padding: 0 2.5rem;
@@ -296,6 +295,10 @@ footer {
     display: block;
     max-width: 12.5rem;
   }
+  header img {
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+  }
+  
   .modal {
     width: 25rem;
     background-color: white;
@@ -380,7 +383,6 @@ footer {
 }
 
 @media (max-width: 430px) {
-  
   .first {
     flex-direction: column;
     padding: 0 1.25rem;
@@ -395,6 +397,10 @@ footer {
     display: block;
     max-width: 9.375rem;
   }
+  header img {
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+  }
+  
   .modal {
     margin-top: 1rem;
     width: 18.75rem;
@@ -461,7 +467,7 @@ footer {
     border-right: none;
     margin: 0px;
     border-bottom: 1px solid white;
-    
+
     width: 12.5rem;
     align-items: center;
     justify-content: center;
@@ -483,6 +489,5 @@ footer {
 @media (max-width: 320px) {
   html {
     font-size: 4vw;
- }
- 
+  }
 }
