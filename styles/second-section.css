@@ -1,0 +1,50 @@
+
+/* estilo segunda seccion */
+
+
+.second {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.25rem;
+  }
+  
+  .second h2 {
+    padding: 5.4rem 0 6.25rem 0;
+    color: #00358e;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12.5rem;
+  }
+  
+  .opciones div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  
+  .opciones div img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #eef1ff;
+  }
+  
+  .opciones div p {
+    font-size: 1.3rem;
+  }
+  
+  .second > p {
+    padding: 5rem;
+  }
+  

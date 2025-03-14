@@ -1,0 +1,162 @@
+
+/* estilo banner */
+
+
+.banner-section {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.banner-section__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner-section__card__banner-image {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  max-height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7),
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/assets/car-image.png");
+  background-size: cover;
+}
+
+.banner-section__card__logo-image {
+  width: 21.25rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 1.25rem;
+  margin-left: 4.375rem;
+}
+
+.banner-section__card h1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-size: 3.75rem;
+  margin-left: 3.125rem;
+  margin-bottom: 2.5rem;
+}
+
+.banner-section__form {
+  position: absolute;
+  right: 3.75rem;
+  top: 1.875rem;
+  bottom: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 23.563rem;
+  background: white;
+  align-items: center;
+  border-radius: 0.75rem;
+}
+.banner-section__form__title {
+  padding: 1.875rem;
+  font-size: 1.625rem;
+}
+.banner-section__form__whatsapp-button {
+  padding: 0.625rem 1.875rem;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.125rem;
+}
+.banner-section__form__whatsapp-button__image {
+  padding: 0 0.2rem;
+}
+.banner-section__form__hint {
+  padding: 1.625rem;
+  font-size: 0.875rem;
+}
+.banner-section__form_select,
+.banner-section__form_input {
+  width: 17.938rem;
+  height: 2.25rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.313rem;
+  overflow: hidden;
+}
+
+.banner-section__form_label {
+  align-self: flex-start;
+  font-size: 0.875rem;
+  padding: 0.313rem 0 0.313rem 2.8rem;
+}
+.banner-section__form_button-next {
+  color: white;
+  background-color: #3457fa;
+  margin: 4rem;
+  padding: 0.625rem 0;
+
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 17.938rem;
+  height: 2.875rem;
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 3vw;
+  }
+  .banner-section__form {
+    position: initial;
+    margin: auto;
+  }
+
+  .banner-section__card h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 0;
+    text-align: center;
+    font-size: 4vw;
+  }
+  .banner-section__card__logo-image {
+    width: 9.375rem;
+  }
+  .banner-section__form_button-next{
+    margin-bottom: 0;
+  }
+}
+/* separador */
+
+@media screen and (max-width: 320px) {
+  .banner-section__card h1 {
+    font-size: 1rem;
+  }
+  .banner-section__card__logo-image {
+    width: 10rem;
+    margin-left: 1rem;
+  }
+}

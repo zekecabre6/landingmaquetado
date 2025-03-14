@@ -1,0 +1,44 @@
+
+/* estilo footer */
+
+
+footer {
+    background-color: #00358e;
+    color: white;
+    background-image: radial-gradient(
+      circle at top left,
+      rgba(189, 189, 189, 0.2) 1px,
+      transparent 4px
+    );
+    background-size: 10px 10px;
+    background-position: 0;
+    backdrop-filter: blur(99px);
+    position: relative;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+  }
+  
+  .footer div {
+    border-right: 1px solid white;
+    margin: 3.125rem 0;
+    padding: 2.25rem;
+  }
+  .footer img {
+    padding: 0 40px;
+    max-width: 200px;
+  }
+  
+  .footer div li {
+    list-style: none;
+  }
+  
+  .footer1 {
+    padding: 1.25rem 3.75rem 2.5rem 3.75rem;
+    font-size: 0.8rem;
+  }
+  
