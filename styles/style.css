@@ -32,17 +32,7 @@
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
   }
 
-  .modal {
-    width: 25rem;
-    background-color: white;
-  }
-  .info {
-    font-size: 2rem;
-    padding: 4.375rem 0 1.25rem 0;
-  }
-  .modal .next {
-    margin-top: 3.125rem;
-  }
+  
   .header {
     padding: 15px 40px;
   }
